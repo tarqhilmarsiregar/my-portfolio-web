@@ -61,6 +61,11 @@ const portfolioData = {
   ],
   certificates: [
     {
+      name: "AWS re/Start Graduate",
+      imageUrl: "https://raw.githubusercontent.com/tarqhilmars29/assets-portfolio/main/aws-re-start-graduate-credly.png",
+      linkUrl: "https://www.credly.com/badges/4a3597c0-ffd1-4ed3-95a5-ab04e1195c34/public_url"
+    },
+    {
       name: "Top 20 Teams Capstone Project - Coding Camp 2025 DBS Foundation",
       imageUrl: "https://raw.githubusercontent.com/tarqhilmars29/assets-portfolio/main/%5BCoding%20Camp%202025%20-%20University%5D%20Best%20Capstone%20Project%20-%20MC811D5Y0336.jpg",
       linkUrl: "https://raw.githubusercontent.com/tarqhilmars29/assets-portfolio/main/%5BCoding%20Camp%202025%20-%20University%5D%20Best%20Capstone%20Project%20-%20MC811D5Y0336.jpg"
