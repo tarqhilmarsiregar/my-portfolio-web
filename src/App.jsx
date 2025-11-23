@@ -5,7 +5,7 @@ import { Briefcase, Code, Award, User, Menu, X, Link as LinkIcon, Download } fro
 const portfolioData = {
   profile: {
     name: "Tarq Hilmar Siregar",
-    title: "Machine Learning & Cloud Enthusiast",
+    title: "Machine Learning & Cloud Enthusiast | AWS Certified Cloud Practitioner",
     summary: "I have built a strong foundation in cloud computing and machine learning, supported by hands-on projects and collaborative experiences. Along the way, I developed technical expertise while also strengthening leadership, problem solving, communication, and adaptability. Taking roles as both team leader and facilitator allowed me to guide others, work effectively in teams, and deliver impactful solutions. These experiences shaped me into an adaptive digital talent, ready to face challenges and contribute meaningfully in the tech industry.",
     photoUrl: "https://raw.githubusercontent.com/tarqhilmars29/assets-portfolio/main/IMG_20240904_195954.jpg",
     cvUrl: "https://drive.google.com/file/d/1Gfi2NKYs6dP0PYhI5xCoUCcIxatu4i6R/view?usp=drive_link",
@@ -60,6 +60,11 @@ const portfolioData = {
     },
   ],
   certificates: [
+    {
+      name: "AWS Certified Cloud Practitioner",
+      imageUrl: "https://raw.githubusercontent.com/tarqhilmars29/assets-portfolio/main/aws-certified-cloud-practitioner.png",
+      linkUrl: "https://www.credly.com/badges/c1396390-b677-4ab0-b017-695f8485eb1a/public_url"
+    },
     {
       name: "AWS re/Start Graduate",
       imageUrl: "https://raw.githubusercontent.com/tarqhilmars29/assets-portfolio/main/aws-re-start-graduate-credly.png",
