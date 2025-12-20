@@ -61,6 +61,11 @@ const portfolioData = {
   ],
   certificates: [
     {
+      name: "Juara Harapan 3 Data Mining - Indoneris National IT Competition 2025",
+      imageUrl: "https://raw.githubusercontent.com/tarqhilmars29/assets-portfolio/main/DATA%20MINING_6_TARQ%20HILMAR%20SIREGAR%2C%20WILLIAM%20WIDJAJA_page-0001.jpg",
+      linkUrl: "https://indoneris.amikompurwokerto.ac.id/competition/winner?y=2025"
+    },
+    {
       name: "AWS Certified Cloud Practitioner",
       imageUrl: "https://raw.githubusercontent.com/tarqhilmars29/assets-portfolio/main/aws-certified-cloud-practitioner.png",
       linkUrl: "https://www.credly.com/badges/c1396390-b677-4ab0-b017-695f8485eb1a/public_url"
