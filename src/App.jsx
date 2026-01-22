@@ -7,10 +7,16 @@ const portfolioData = {
     name: "Tarq Hilmar Siregar",
     title: "Machine Learning & Cloud Enthusiast | AWS Certified Cloud Practitioner",
     summary: "I have built a strong foundation in cloud computing and machine learning, supported by hands-on projects and collaborative experiences. Along the way, I developed technical expertise while also strengthening leadership, problem solving, communication, and adaptability. Taking roles as both team leader and facilitator allowed me to guide others, work effectively in teams, and deliver impactful solutions. These experiences shaped me into an adaptive digital talent, ready to face challenges and contribute meaningfully in the tech industry.",
-    photoUrl: "https://raw.githubusercontent.com/tarqhilmars29/assets-portfolio/main/IMG_20240904_195954.jpg",
-    cvUrl: "https://drive.google.com/file/d/1Gfi2NKYs6dP0PYhI5xCoUCcIxatu4i6R/view?usp=drive_link",
+    photoUrl: "https://raw.githubusercontent.com/tarqhilmars29/assets-portfolio/main/tarq.jpg",
+    cvUrl: "https://drive.google.com/file/d/1Riein6jsCEm9lgKskmPfZJhPO_8VJ3Qs/view?usp=sharing",
   },
   experiences: [
+    {
+      title: "Instructor Problem Solving Club",
+      company: "STMIK Time",
+      duration: "Oct 2025 - Dec 2025",
+      description: "Designed and led an 8-week intensive curriculum to equip 20 beginners with the fundamentals of Data Structures and Algorithms. Successfully transformed abstract concepts such as Big O, Sorting, and Array Manipulation into practical, easy to understand lessons.",
+    },    
     {
       title: "AWS re/Start",
       company: "Orbit Future Academy",
@@ -58,6 +64,13 @@ const portfolioData = {
       link: "https://youtu.be/lzd8HByLiVk",
       imageUrl: "https://raw.githubusercontent.com/tarqhilmars29/assets-portfolio/main/housepricingmlops.png", 
     },
+    {
+      name: "AI Course Recommendation System for Students",
+      description: "This project introduces an innovative AI-driven course recommendation system designed to mitigate student dropout rates. By leveraging a Hybrid Stacking Ensemble architecture that integrates the precision of XGBoost with the advanced pattern recognition of Deep Neural Networks (DNN), the system accurately predicts graduation probabilities. Achieving a ROC AUC of 0.9216, the model goes beyond simple suggestions to provide 'academic security' through Top-K course recommendations. Results demonstrate that this hybrid approach delivers a 23% improvement in recommendation quality compared to traditional single-model methods.",
+      technologies: ["Python", "XGBoost", "Scikit-learn", "TensorFlow", "Streamlit"],
+      link: "https://youtu.be/ax3U8hWzJWs",
+      imageUrl: "https://raw.githubusercontent.com/tarqhilmars29/assets-portfolio/main/preview-ai-course-recommendation-system.PNG"
+    }
   ],
   certificates: [
     {
@@ -374,6 +387,7 @@ const App = () => {
             <a href="https://www.linkedin.com/in/tarqhilmarsiregar/" className="text-gray-400 hover:text-indigo-400 transition-colors">LinkedIn</a>
             <a href="https://github.com/tarqhilmarsiregar" className="text-gray-400 hover:text-indigo-400 transition-colors">GitHub</a>
             <a href="https://tarqhilmarsiregar.medium.com/" className="text-gray-400 hover:text-indigo-400 transition-colors">Medium</a>
+            <a href="https://www.youtube.com/@TarqHilmarSiregar" className="text-gray-400 hover:text-indigo-400 transition-colors">YouTube</a>
           </div>
         </div>
       </footer>
