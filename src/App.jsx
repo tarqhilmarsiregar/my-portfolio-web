@@ -5,7 +5,7 @@ import { Briefcase, Code, Award, User, Menu, X, Link as LinkIcon, Download } fro
 const portfolioData = {
   profile: {
     name: "Tarq Hilmar Siregar",
-    title: "Machine Learning & Cloud Enthusiast | AWS Certified Cloud Practitioner",
+    title: "10,000 AIdeas Semi-Finalist AWS | AWS Certified Cloud Practitioner | Machine Learning & Cloud Enthusiast",
     summary: "I have built a strong foundation in cloud computing and machine learning, supported by hands-on projects and collaborative experiences. Along the way, I developed technical expertise while also strengthening leadership, problem solving, communication, and adaptability. Taking roles as both team leader and facilitator allowed me to guide others, work effectively in teams, and deliver impactful solutions. These experiences shaped me into an adaptive digital talent, ready to face challenges and contribute meaningfully in the tech industry.",
     photoUrl: "https://raw.githubusercontent.com/tarqhilmars29/assets-portfolio/main/tarq.jpg",
     cvUrl: "https://drive.google.com/file/d/1Riein6jsCEm9lgKskmPfZJhPO_8VJ3Qs/view?usp=sharing",
