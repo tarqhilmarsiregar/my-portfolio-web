@@ -12,6 +12,12 @@ const portfolioData = {
   },
   experiences: [
     {
+      title: "Microsoft Elevate Training Center (METC) Facilitator",
+      company: "Dicoding Indonesia",
+      duration: "Apr 2026 - Present",
+      description: "Mentoring and guiding a diverse group of participants including professionals, academics, and students in the exclusive Microsoft Elevate Training Center (METC) program to enhance their competencies in advanced Artificial Intelligence (AI).",
+    },
+    {
       title: "Instructor Problem Solving Club",
       company: "STMIK Time",
       duration: "Oct 2025 - Dec 2025",
