@@ -80,6 +80,11 @@ const portfolioData = {
   ],
   certificates: [
     {
+      name: "10,000 AIdeas Semi-Finalist AWS (Top 300 innovators)",
+      imageUrl: "https://raw.githubusercontent.com/tarqhilmars29/assets-portfolio/main/aideas10k-top300-builderid-tarq.PNG",
+      linkUrl: "https://builder.aws.com/content/3BEgQfoDlTFgf6mEH53H9KPrAXR/aideas-top-300-moving-to-the-judging-round",
+    },
+    {
       name: "Juara Harapan 3 Data Mining - Indoneris National IT Competition 2025",
       imageUrl: "https://raw.githubusercontent.com/tarqhilmars29/assets-portfolio/main/DATA%20MINING_6_TARQ%20HILMAR%20SIREGAR%2C%20WILLIAM%20WIDJAJA_page-0001.jpg",
       linkUrl: "https://indoneris.amikompurwokerto.ac.id/competition/winner?y=2025"
