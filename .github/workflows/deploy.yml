@@ -1,0 +1,33 @@
+name: Deploy to EC2
+
+# Perintah ini akan dijalankan SETIAP KALI kamu melakukan PUSH ke branch main
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    # 'self-hosted' memastikan GitHub mencari runner yang kita instal di EC2 tadi
+    runs-on: self-hosted
+
+    steps:
+      # 1. Mengambil kode terbaru dari repo GitHub kamu
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # 2. Menginstal library Node.js (node_modules)
+      - name: Install dependencies
+        run: npm install
+
+      # 3. Melakukan build (mengubah React menjadi folder dist)
+      - name: Build project
+        run: npm run build
+
+      # 4. Memindahkan isi folder dist ke folder Apache
+      # Kita pakai sudo karena folder /var/www/html butuh izin admin
+      - name: Deploy to Apache folder
+        run: |
+          sudo rm -rf /var/www/html/*
+          sudo cp -r dist/* /var/www/html/
+          sudo systemctl restart httpd
